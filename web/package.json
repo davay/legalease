@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
+    "dev:detached": "nohup vite --host > vite.log 2>&1 &",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"

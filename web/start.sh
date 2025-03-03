@@ -15,4 +15,4 @@ if [ -n "$API_IP" ]; then
 fi
 
 pnpm install
-pnpm run dev --host
+pnpm run dev:detached
